@@ -13,8 +13,11 @@ Make HTML and convert to mobi from source codes
 
 ## Usage
 
-                base files  output file
-    $ mobicoder ./   ./**/* /Volumes/Kindle/documents/project.mobi
+    $ mobicoder
+    usage: mobicoder basedir output files
+
+                base output file                            files
+    $ mobicoder ./   /Volumes/Kindle/documents/project.mobi ./**/*
 
 ## License
 
