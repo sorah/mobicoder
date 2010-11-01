@@ -11,6 +11,10 @@ Make HTML and convert to mobi from source codes
 * tohtml.vim (bundled with vim7.3 or latest)
 * [kindlegen](http://www.amazon.com/gp/feature.html?ie=UTF8&docId=1000234621)
 
+## Install
+
+    $ gem install mobicoder
+
 ## Usage
 
     $ mobicoder
