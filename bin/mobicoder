@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+# vim: filetype=ruby
+
+require_relative '../lib/mobicoder.rb'
+
+abort "usage: mobicoder basedir output files" unless ARGV.size >= 3
+
+a = ARGV.dup
+
+Mobicoder.run(a.shift,a.shift,*a)
+
